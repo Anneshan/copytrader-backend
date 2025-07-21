@@ -7,10 +7,10 @@ import { asyncHandler } from '../middleware/errorHandler';
 import { AppError, ValidationError } from '../utils/errors';
 import { logger } from '../utils/logger';
 import { BrokerFactory, SupportedBroker } from '../services/brokerIntegrations/brokerFactory';
-import { encryptApiKey, decryptApiKey } from '../utils/encryption';
+import { encryptApiKey, decryptApiKey, ENCRYPTION_KEY } from '../utils/encryption';
 
 const router = express.Router();
-
+console.log(ENCRYPTION_KEY);
 // Get all broker accounts for user
 router.get('/', authenticate, asyncHandler(async (req: AuthenticatedRequest, res: express.Response) => {
   const accounts = await prisma.brokerAccount.findMany({
