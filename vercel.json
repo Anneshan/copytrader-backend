@@ -9,15 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/server.ts"
+      "dest": "/src/server.ts"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "functions": {
-    "src/server.ts": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }
