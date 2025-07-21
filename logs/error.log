@@ -1,0 +1,44 @@
+{
+  service: 'copytrader-pro-api',
+  error: 'Route /.well-known/appspecific/com.chrome.devtools.json not found',
+  stack: 'Error: Route /.well-known/appspecific/com.chrome.devtools.json not found\n' +
+    '    at notFound (/Users/anneshansharma/copy/server/src/middleware/errorHandler.ts:68:17)\n' +
+    '    at Layer.handle [as handle_request] (/Users/anneshansharma/copy/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:328:13)\n' +
+    '    at /Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at logger (/Users/anneshansharma/copy/server/node_modules/morgan/index.js:144:5)\n' +
+    '    at Layer.handle [as handle_request] (/Users/anneshansharma/copy/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:328:13)\n' +
+    '    at /Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:286:9',
+  url: '/.well-known/appspecific/com.chrome.devtools.json',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  level: 'error',
+  message: 'Error occurred:',
+  timestamp: '2025-07-21 13:24:11'
+}
+{
+  service: 'copytrader-pro-api',
+  error: 'Route /favicon.ico not found',
+  stack: 'Error: Route /favicon.ico not found\n' +
+    '    at notFound (/Users/anneshansharma/copy/server/src/middleware/errorHandler.ts:68:17)\n' +
+    '    at Layer.handle [as handle_request] (/Users/anneshansharma/copy/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:328:13)\n' +
+    '    at /Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at logger (/Users/anneshansharma/copy/server/node_modules/morgan/index.js:144:5)\n' +
+    '    at Layer.handle [as handle_request] (/Users/anneshansharma/copy/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:328:13)\n' +
+    '    at /Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:286:9',
+  url: '/favicon.ico',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  level: 'error',
+  message: 'Error occurred:',
+  timestamp: '2025-07-21 13:24:12'
+}

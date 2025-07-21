@@ -1,0 +1,278 @@
+{
+  message: 'Server initialized successfully',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:24:10'
+}
+{
+  message: 'Environment: development',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:24:10'
+}
+{
+  message: 'Server running on http://localhost:3001',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:24:10'
+}
+{
+  message: '::1 - - [21/Jul/2025:07:54:11 +0000] "GET / HTTP/1.1" 200 108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:24:11'
+}
+{
+  service: 'copytrader-pro-api',
+  error: 'Route /.well-known/appspecific/com.chrome.devtools.json not found',
+  stack: 'Error: Route /.well-known/appspecific/com.chrome.devtools.json not found\n' +
+    '    at notFound (/Users/anneshansharma/copy/server/src/middleware/errorHandler.ts:68:17)\n' +
+    '    at Layer.handle [as handle_request] (/Users/anneshansharma/copy/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:328:13)\n' +
+    '    at /Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at logger (/Users/anneshansharma/copy/server/node_modules/morgan/index.js:144:5)\n' +
+    '    at Layer.handle [as handle_request] (/Users/anneshansharma/copy/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:328:13)\n' +
+    '    at /Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:286:9',
+  url: '/.well-known/appspecific/com.chrome.devtools.json',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  level: 'error',
+  message: 'Error occurred:',
+  timestamp: '2025-07-21 13:24:11'
+}
+{
+  message: '::1 - - [21/Jul/2025:07:54:11 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:24:11'
+}
+{
+  service: 'copytrader-pro-api',
+  error: 'Route /favicon.ico not found',
+  stack: 'Error: Route /favicon.ico not found\n' +
+    '    at notFound (/Users/anneshansharma/copy/server/src/middleware/errorHandler.ts:68:17)\n' +
+    '    at Layer.handle [as handle_request] (/Users/anneshansharma/copy/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:328:13)\n' +
+    '    at /Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at logger (/Users/anneshansharma/copy/server/node_modules/morgan/index.js:144:5)\n' +
+    '    at Layer.handle [as handle_request] (/Users/anneshansharma/copy/server/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at trim_prefix (/Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:328:13)\n' +
+    '    at /Users/anneshansharma/copy/server/node_modules/express/lib/router/index.js:286:9',
+  url: '/favicon.ico',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  level: 'error',
+  message: 'Error occurred:',
+  timestamp: '2025-07-21 13:24:12'
+}
+{
+  message: '::1 - - [21/Jul/2025:07:54:12 +0000] "GET /favicon.ico HTTP/1.1" 404 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:24:12'
+}
+{
+  message: '::1 - - [21/Jul/2025:07:55:28 +0000] "GET / HTTP/1.1" 200 108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:25:28'
+}
+{
+  message: '::1 - - [21/Jul/2025:07:56:12 +0000] "GET / HTTP/1.1" 200 108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:26:12'
+}
+{
+  message: '::1 - - [21/Jul/2025:07:56:13 +0000] "GET / HTTP/1.1" 200 108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:26:13'
+}
+{
+  message: '::1 - - [21/Jul/2025:07:56:15 +0000] "GET / HTTP/1.1" 200 108 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:26:15'
+}
+{
+  message: 'Received SIGTERM, disconnecting all brokers...',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:29:36'
+}
+{
+  message: 'All broker instances disconnected',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:29:36'
+}
+{
+  message: 'Received SIGTERM, disconnecting all brokers...',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:29:36'
+}
+{
+  message: 'All broker instances disconnected',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:29:36'
+}
+{
+  service: 'copytrader-pro-api',
+  status: 'unhealthy',
+  timestamp: '2025-07-21 13:29:54',
+  uptime: 346.728575958,
+  responseTime: 29,
+  checks: {
+    database: {
+      status: 'unhealthy',
+      message: 'Database connection failed',
+      error: PrismaClientInitializationError: 
+      Invalid `prisma.$queryRaw()` invocation:
+      
+      
+      Can't reach database server at `localhost:5432`
+      
+      Please make sure your database server is running at `localhost:5432`.
+          at $n.handleRequestError (/Users/anneshansharma/copy/server/node_modules/@prisma/client/runtime/library.js:121:7615)
+          at $n.handleAndLogRequestError (/Users/anneshansharma/copy/server/node_modules/@prisma/client/runtime/library.js:121:6623)
+          at $n.request (/Users/anneshansharma/copy/server/node_modules/@prisma/client/runtime/library.js:121:6307)
+          at async l (/Users/anneshansharma/copy/server/node_modules/@prisma/client/runtime/library.js:130:9633)
+          at async checkDatabaseHealth (/Users/anneshansharma/copy/server/src/config/database.ts:27:5)
+          at async /Users/anneshansharma/copy/server/src/routes/health.ts:14:15 {
+        clientVersion: '5.22.0',
+        errorCode: undefined
+      }
+    },
+    redis: false,
+    memory: { usage: 268800624, limit: 272121856, percentage: 98.78 },
+    uptime: 346.728547166
+  },
+  version: '1.0.0',
+  environment: 'development',
+  level: 'info',
+  message: 'Health check performed'
+}
+{
+  message: '::1 - - [21/Jul/2025:07:59:54 +0000] "GET /api/health HTTP/1.1" 503 436 "-" "curl/8.13.0"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:29:54'
+}
+{
+  message: '::1 - - [21/Jul/2025:08:01:06 +0000] "GET / HTTP/1.1" 200 108 "-" "curl/8.13.0"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:31:06'
+}
+{
+  message: 'Received SIGTERM, disconnecting all brokers...',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:36:12'
+}
+{
+  message: 'All broker instances disconnected',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:36:12'
+}
+{
+  message: 'Received SIGTERM, disconnecting all brokers...',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:36:12'
+}
+{
+  message: 'All broker instances disconnected',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:36:12'
+}
+{
+  message: '::1 - - [21/Jul/2025:08:06:25 +0000] "GET / HTTP/1.1" 200 108 "-" "curl/8.13.0"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:36:25'
+}
+{
+  message: '::1 - - [21/Jul/2025:08:07:58 +0000] "GET / HTTP/1.1" 200 108 "-" "curl/8.13.0"',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 13:37:58'
+}
+{
+  message: 'Received SIGTERM, disconnecting all brokers...',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:26:36'
+}
+{
+  message: 'All broker instances disconnected',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:26:36'
+}
+{
+  message: 'Received SIGTERM, disconnecting all brokers...',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:26:36'
+}
+{
+  message: 'All broker instances disconnected',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:26:36'
+}
+{
+  message: 'Received SIGTERM, disconnecting all brokers...',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:45:23'
+}
+{
+  message: 'All broker instances disconnected',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:45:23'
+}
+{
+  message: 'Received SIGTERM, disconnecting all brokers...',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:45:23'
+}
+{
+  message: 'All broker instances disconnected',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:45:23'
+}
+{
+  message: 'Server initialized successfully',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:51:05'
+}
+{
+  message: 'Environment: development',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:51:05'
+}
+{
+  message: 'Server running on http://localhost:3001',
+  level: 'info',
+  service: 'copytrader-pro-api',
+  timestamp: '2025-07-21 15:51:05'
+}

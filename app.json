@@ -1,0 +1,50 @@
+{
+  "name": "CopyTrader Pro API",
+  "description": "Professional Copy Trading Platform Backend API",
+  "repository": "https://github.com/your-username/copytrader-pro",
+  "logo": "https://your-logo-url.com/logo.png",
+  "keywords": ["nodejs", "express", "trading", "api", "postgresql"],
+  "stack": "heroku-22",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "addons": [
+    {
+      "plan": "heroku-postgresql:mini"
+    },
+    {
+      "plan": "heroku-redis:mini"
+    }
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Node environment",
+      "value": "production"
+    },
+    "JWT_SECRET": {
+      "description": "JWT signing secret",
+      "generator": "secret"
+    },
+    "JWT_REFRESH_SECRET": {
+      "description": "JWT refresh token secret",
+      "generator": "secret"
+    },
+    "ENCRYPTION_KEY": {
+      "description": "32-character encryption key for API keys",
+      "generator": "secret"
+    },
+    "SESSION_SECRET": {
+      "description": "Session secret key",
+      "generator": "secret"
+    },
+    "CORS_ORIGIN": {
+      "description": "Frontend URL for CORS",
+      "value": "https://vermillion-drud-24dc96.netlify.app"
+    }
+  },
+  "scripts": {
+    "postdeploy": "npx prisma migrate deploy && npx prisma db seed"
+  }
+}
