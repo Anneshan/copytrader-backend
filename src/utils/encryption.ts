@@ -7,6 +7,8 @@ if (ENCRYPTION_KEY.length !== 32) {
   throw new Error('ENCRYPTION_KEY must be exactly 32 characters long');
 }
 
+console.log('ENCRYPTION_KEY value:', ENCRYPTION_KEY, 'length:', ENCRYPTION_KEY.length);
+
 export const encryptApiKey = (text: string): string => {
   try {
     const iv = crypto.randomBytes(16);
